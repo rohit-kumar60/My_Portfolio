@@ -3,9 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <p>Hey</p>
+    <header class="header">
+        <a href="#" class="logo">Rohit Gupta</a>
+        <a href="#" class="menus"><i class='bx bx-menu'></i></a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#skills" style="--i:2">Skills</a>
+            <!-- <a href="#">Certificates</a> -->
+            <a href="#project" style="--i:3">Projects</a>
+            <a href="UpdateRkCv.pdf" download="cv" style="--i:4"><span class="cv">Download CV</span></a>
+            <a href="#contact" style="--i:5">Contact Me</a>
+            
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rohit Gupta</h1><br/>
+            <!-- <h3>And </h3> -->
+            <p>I am a <span id="fr">Frontend Developer</span><br> with expertise in creating and designing websites.</p>
+            <div class="home-sci">
+                <!-- <a href="#" style="--i:6"><i class='bx bxl-facebook'></i></a> -->
+                <a href="https://www.linkedin.com/in/rohit-kumar-453655190"><i class='bx bxl-linkedin' style='color:#12e2d3' ></i></a>
+                <a href="https://github.com/rohit-kumar60" style="--i:7"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More about me</a>
+        </div>
+        <div class="profile">
+            <img src="rohit.jpg"  alt="">
+        </div>
+    </section>
+    
+    <!-- About me  -->
+
+    <section  id="about">
+           <div class="about">
+            <div class="about-img">
+                <img src="rohit.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p>I am a skilled web developer. My role involves collaborating with designers to translate mockups into functional and accessible web pages, ensuring compatibility across various devices and browsers. As a fresher, I am dedicated to learning and applying modern web development techniques, focusing on delivering high-quality user experiences. I am eager to contribute my skills and grow in a dynamic team environment.</p>
+                <!-- <a href="#" class="btn-box" id="btn-box">More about me</a> -->
+            </div>
+           </div>
+    </section>
+
+    <!-- My Skills -->
+
+    <section>
+        <div class="services" id="skills">
+            <div class="container">
+                <h1 class="sub-title">My <span>Skills</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code' style='color: aqua'></i>
+                        <h2>UI/UX Design</h2>
+                        <P>FIGMA</P>
+                    </div>
+
+                    <div>
+                        <i class='bx bx-crop' style='color: aqua'></i>
+                        <h2>Web Technolgies</h2>
+                        <p>HTML5 , CSS3 , JAVASCRIPT , REACT-JS</p>
+                        
+                    </div>
+
+                    <div>
+                        <i class='bx bxl-apple' style='color: aqua'></i>
+                        <h2>App development</h2>
+                       <p>REACT-NATIVE</p>
+                       
+                    </div>
+
+                    <div>
+                        <i class='bx bxl-apple' style='color: aqua'></i>
+                        <h2>Programming Languages</h2>
+                       <p>C , C++ , PHP</p>
+                       
+                    </div>
+
+                    <div>
+                        <i class='bx bxl-apple' style='color: aqua'></i>
+                        <h2>Data Management</h2>
+                       <p>My-SQL</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="portfolio" id="project">
+        <div class="main-text" id="project">
+            <h2>Latest <span>Projects</span></h2>
+
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="MyBlog.png" alt="">
+                    <div class="layer">
+                        <h5>UI/UX Design</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam, ipsam alias dolor dolore iusto? Dolorum, ex voluptate! Ipsam officia soluta velit laborum facere quo hic deleniti ut praesentium beatae.</p>
+                        <a href="MyBlog.html"><i class='bx bx-link-external' style="color: rgb(4, 31, 54);"></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="Sync.png" alt="">
+                    <div class="layer">
+                        <h5>Web Development</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam, ipsam alias dolor dolore iusto? Dolorum, ex voluptate! Ipsam officia soluta velit laborum facere quo hic deleniti ut praesentium beatae.</p>
+                        <a href="studySync.html"><i class='bx bx-link-external' style="color: rgb(4, 31, 54);"></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="app.jpg" alt="">
+                    <div class="layer">
+                        <h5>App Development</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos veniam, ipsam alias dolor dolore iusto? Dolorum, ex voluptate! Ipsam officia soluta velit laborum facere quo hic deleniti ut praesentium beatae.</p>
+                        <a href="#"><i class='bx bx-link-external' style="color: rgb(4, 31, 54);"></i></a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- My Certificate -->
+
+    <section id="Certificate" id="Certificate">
+        <div class="main-text" id="project">
+            <h2>My  <span>Certificates</span></h2>
+
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="MyBlog.png" alt="">
+                    <div class="layer">
+                        
+                        <a href="#"><i class='bx bx-link-external' style="color: rgb(4, 31, 54);"></i></a><br>
+                        <h5>UI/UX Design</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="web_page-0001.jpg" alt="">
+                    <div class="layer">
+                        <a href="https://www.coursera.org/account/accomplishments/verify/877J57459US6"><i class='bx bx-link-external' style="color: rgb(4, 31, 54);"></i></a><br>
+                        <h5>Web-Dev</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="TP-L6WUN9IE.jpg" alt="">
+                    <div class="layer">
+                        <a href="https://www.tutorialspoint.com/market/certificate.jsp/TP-L6WUN9IE?v=1727962137"><i class='bx bx-link-external' style="color: rgb(4, 31, 54);"></i></a><br>
+                        <h5>C ++</h5>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact-us  -->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Collaborated with designers and product managers to translate requirements into functional and user-friendly app interfaces.
+                Experienced in communicating technical details and progress updates to stakeholders, ensuring alignment and clarity throughout the development process.
+            </p>
+
+                <div class="contact-list">
+                    <li><i class='bx bx-send' style='color:#12e2d3' ></i>itsme.rohitgupta11@gmail.com</li>
+                    <li><i class='bx bx-phone' style='color:#12e2d3' ></i>6206383125</li>
+                </div>
+
+                <div class="contact-icons">
+                    <a href="https://github.com/rohit-kumar60"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' style='color:#12e2d3' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' style='color:#12e2d3' ></i></a>
+                    <a href="https://www.linkedin.com/in/rohit-kumar-453655190"><i class='bx bxl-linkedin' style='color:#12e2d3' ></i></a>
+                </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter your Name" required>
+                <input type="email" placeholder="Enter your Email" required>
+
+                <input type="" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" placeholder="Enter Your Message" required></textarea>
+
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>developed by Rohit Gupta <i class='bx bx-copyright' style='color:#12e2d3' ></i>2024</p>
+    </div>
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'  ></i></a>
 </body>
 </html>
