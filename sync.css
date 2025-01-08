@@ -42,8 +42,8 @@ body{
     gap: 0.624rem;
 }
 .logo-icon{
-    width:1.2rem ;
-    height: 1.2rem;
+    width:2.5rem ;
+    height: 2.5rem;
 }
 .logo-text{
     font-size: 1.5rem;
@@ -265,8 +265,8 @@ body{
     align-items: center;
 }
 .svg-image{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 }
 .logo-txt{
@@ -432,8 +432,8 @@ body{
     color: #424141;
 }
 .testimonial-img{
-    width: 3rem;
-    height: 3rem;
+    width: 3.2rem;
+    height: 3.2rem;
     border-radius: 50%;
 }
 .testimonial-name{
